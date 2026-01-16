@@ -1,4 +1,4 @@
-const API_KEY = 'AIzaSyAbJtcr-Ic7RhUdw3rW-x0sPpx34OudORM'
+const API_KEY = '#use your own api key.'
 
 async function getGeminiAnswer() {
     const prompt = document.getElementById('user_Prompt').value;
@@ -41,4 +41,5 @@ async function getGeminiAnswer() {
     } catch (error) {
         responseDiv.innerHTML = 'Error: ' + error.message;
     }
+
 }
