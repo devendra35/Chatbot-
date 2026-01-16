@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#user_prompt {
+    background-color: rgb(248, 99, 228);
+}
+
+#b{
+    color: rgb(183, 116, 29);
+    cursor: pointer;
+    margin: 0px;
+}
+#b:hover {
+    background-color: rgb(58, 58, 171);
+     color: rgb(48, 99, 239); 
+}
+h1{
+    color: rgb(73, 15, 127);
+}
+body {
+  background-image: url('#');
+  background-size: cover;          
+  background-repeat: no-repeat;     
+  background-position: center;    
+  background-attachment: fixed;   
+  color: rgb(183, 65, 189);
+}
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+}
+
+.center{
+    text-align: center;
+}
+.b{
+    text-align: center;
+
+}
+
+.watermark{
+  position: fixed;
+  right: 12px;
+  bottom: 12px;
+  z-index: 9999;
+  opacity: 0.7;
+  color: rgba(58, 10, 10, 0.95);
+  background: rgba(0,0,0,0.28);
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  pointer-events: none;
+  user-select: none;
+}
