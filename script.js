@@ -1,4 +1,4 @@
-const API_KEY = '#use your own api key.' //Enter your own gemini api key.    
+const API_KEY = '#' //Enter your own gemini api key.    
 
 async function getGeminiAnswer() {
     const prompt = document.getElementById('user_Prompt').value;
@@ -43,4 +43,5 @@ async function getGeminiAnswer() {
     }
 
 }
+
 
